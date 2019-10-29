@@ -5,7 +5,6 @@ class App < Sinatra::Base
 	end
 
 	get '/goodbye' do 
-		"Goodbye Joe"
 		erb :goodbye
 	end 
 
